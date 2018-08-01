@@ -1,0 +1,1 @@
+"c:\Python27\Scripts\pyinstaller" -F "c:\Users\Administrator\Downloads\Raspberry_Python\Unipol_AutoRules_Test.py"

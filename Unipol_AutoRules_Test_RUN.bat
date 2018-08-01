@@ -1,0 +1,1 @@
+"c:\Users\Administrator\Downloads\Raspberry_Python\Unipol_AutoRules_Test.exe " "csv/unipol_dws_auto_rules.20180712.csv"

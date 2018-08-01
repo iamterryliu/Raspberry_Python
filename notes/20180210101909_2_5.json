@@ -1,0 +1,20 @@
+{
+  "format": {
+    "filename": "20180210101909_2_5.mp4",
+    "nb_streams": 1,
+    "nb_programs": 0,
+    "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+    "format_long_name": "QuickTime / MOV",
+    "start_time": "0.000000",
+    "duration": "7.356000",
+    "size": "108958",
+    "bit_rate": "118497",
+    "probe_score": 100,
+    "tags": {
+      "major_brand": "avc1",
+      "minor_version": "0",
+      "compatible_brands": "avc1isom",
+      "creation_time": "2018-02-10 10:19:14"
+    }
+  }
+}

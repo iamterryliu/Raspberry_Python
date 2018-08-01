@@ -1,0 +1,22 @@
+command:: ffprobe.exe -hide_banner -print_format json -show_format -i 20180518093358_5_10.mp4 -v quiet
+
+{
+"format": {
+"filename": "20180518093358_5_10.mp4",
+"nb_streams": 1,
+"nb_programs": 0,
+"format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+"format_long_name": "QuickTime / MOV",
+"start_time": "0.000000",
+"duration": "16.266000",
+"size": "1237027",
+"bit_rate": "608398",
+"probe_score": 100,
+"tags": {
+"major_brand": "avc1",
+"minor_version": "0",
+"compatible_brands": "avc1isom",
+"creation_time": "2018-05-18 07:34:08"
+}
+}
+}

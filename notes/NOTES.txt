@@ -1,0 +1,25 @@
+ffmpeg -i 20180518093358_5_10.mp4 -hide_banner
+ffprobe.exe -hide_banner -print_format json -show_format -show_streams -i 20180210101909_2_5.mp4 -v quiet > 20180210101909_2_5.JSON
+ffprobe -i 20180518093358_5_10.mp4 -print_format json -show_streams -hide_banner -v quiet
+
+select * from media_info where media_info.mac = '7894B4F1F24A' order by media_info.time desc
+
+URL is download video file
+http://192.168.8.211:8080/storage/get_media.mp4?media_id=35323&beacon=TXprMU56WkROME5HUmpZNU5qTTFNRGhHTkRJek1USkZNMEkyTmpFMFJESTZkWE5sY2w5dVlXMWxQVGM0T1RSQ05FWXhSakkwUVNaMWMyVnlYM1J2YTJWdVBURTFNalkyTWpnNE5qRXhOelVtYldGalBUYzRPVFJDTkVZeFJqSTBRUT09
+
+
+轉換mp4 to wmv, 檔案沒問題就可以轉成功
+ffmpeg.exe -i 20180210101909_2_5.mp4 20180210101909_2_5.wmv -hide_banner
+
+http://192.168.8.221:8080/cgi/set_security.cgi?mac=7894B4FAC089&arm=0&pin_code=1111
+0=DISARM
+
+http://192.168.8.221:8080/cgi/set_security.cgi?mac=7894B4FAC089&arm=1&pin_code=1111
+1=AWAY_ARM
+
+http://192.168.8.221:8080/cgi/set_security.cgi?mac=7894B4FAC089&arm=2&pin_code=1111
+2=STAY_ARM
+
+
+select * from view_unipol_event_mapping where kitcode = 'imfac089';
+select * from unipol_event where kitcode = 'imfac089';

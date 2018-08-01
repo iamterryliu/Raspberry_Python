@@ -1,0 +1,99 @@
+####(1) In StayArm. (2) DWS_01 tamper is opened. (3) After 310 seconds, Press Stay Arm.
+####(1) In StayArm. (2) DWS_01 tamper is opened. (3) After 310 seconds, Press Disarm and PIN code is FAIL.
+####(1) In StayArm. (2) DWS_01 tamper is opened.
+####(1) In StayArm. (2) DWS_01 tamper is opened. (3) After 310 seconds, Press Away Arm.
+####(1) In StayArm. (2) DWS_01 tamper is opened. (3) After 310 seconds, Press Disarm.
+####(1) In StayArm. (2) DWS_01 tamper is opened. (3) After 310 seconds, Press Stay Arm button from Portal(App).
+####(1) In StayArm. (2) DWS_01 tamper is opened. (3) After 310 seconds, Press Away Arm button from Portal(App).
+####(1) In StayArm. (2) DWS_01 tamper is opened. (3) After 310 seconds, Press Disarm and PIN code is PASS.
+####(1) In StayArm. (2) DWS_01 tamper is opened. (3) Which in 30 seconds, Press Stay Arm.
+####(1) In StayArm. (2) DWS_01 tamper is opened. (3) Which in 30 seconds, Press Disarm and PIN code is FAIL.
+####(1) In StayArm. (2) DWS_01 tamper is opened.
+####(1) In StayArm. (2) DWS_01 tamper is opened. (3) Which in 30 seconds, Press Away Arm.
+####(1) In StayArm. (2) DWS_01 tamper is opened. (3) Which in 30 seconds, Press Disarm.
+####(1) In StayArm. (2) DWS_01 tamper is opened. (3) Which in 30 seconds, Press Stay Arm button from Portal(App).
+####(1) In StayArm. (2) DWS_01 tamper is opened. (3) Which in 30 seconds, Press Away Arm button from Portal(App).
+####(1) In StayArm. (2) DWS_01 tamper is opened. (3) Which in 30 seconds, Press Disarm and PIN code is PASS.
+####(1) In StayArm. (2) DWS_01 tamper is opened. (3) After 180 seconds, Press Stay Arm.
+####(1) In StayArm. (2) DWS_01 tamper is opened. (3) After 180 seconds, Press Disarm and PIN code is FAIL.
+####(1) In StayArm. (2) DWS_01 tamper is opened.
+####(1) In StayArm. (2) DWS_01 tamper is opened. (3) After 180 seconds, Press Away Arm.
+####(1) In StayArm. (2) DWS_01 tamper is opened. (3) After 180 seconds, Press Disarm.
+####(1) In StayArm. (2) DWS_01 tamper is opened. (3) After 180 seconds, Press Stay Arm button from Portal(App).
+####(1) In StayArm. (2) DWS_01 tamper is opened. (3) After 180 seconds, Press Away Arm button from Portal(App).
+####(1) In StayArm. (2) DWS_01 tamper is opened. (3) After 180 seconds, Press Disarm and PIN code is PASS.
+####============================================================================
+####(1) In StayArm. (2) DWS_01 has LowBattery. (3) After 310 seconds, Press Stay Arm.
+####(1) In StayArm. (2) DWS_01 has LowBattery. (3) After 310 seconds, Press Disarm and PIN code is FAIL.
+####(1) In StayArm. (2) DWS_01 has LowBattery.
+####(1) In StayArm. (2) DWS_01 has LowBattery. (3) After 310 seconds, Press Away Arm.
+####(1) In StayArm. (2) DWS_01 has LowBattery. (3) After 310 seconds, Press Disarm.
+####(1) In StayArm. (2) DWS_01 has LowBattery. (3) After 310 seconds, Press Stay Arm button from Portal(App).
+####(1) In StayArm. (2) DWS_01 has LowBattery. (3) After 310 seconds, Press Away Arm button from Portal(App).
+####(1) In StayArm. (2) DWS_01 has LowBattery. (3) After 310 seconds, Press Disarm and PIN code is PASS.
+####(1) In StayArm. (2) DWS_01 has LowBattery. (3) Which in 30 seconds, Press Stay Arm.
+####(1) In StayArm. (2) DWS_01 has LowBattery. (3) Which in 30 seconds, Press Disarm and PIN code is FAIL.
+####(1) In StayArm. (2) DWS_01 has LowBattery.
+####(1) In StayArm. (2) DWS_01 has LowBattery. (3) Which in 30 seconds, Press Away Arm.
+####(1) In StayArm. (2) DWS_01 has LowBattery. (3) Which in 30 seconds, Press Disarm.
+####(1) In StayArm. (2) DWS_01 has LowBattery. (3) Which in 30 seconds, Press Stay Arm button from Portal(App).
+####(1) In StayArm. (2) DWS_01 has LowBattery. (3) Which in 30 seconds, Press Away Arm button from Portal(App).
+####(1) In StayArm. (2) DWS_01 has LowBattery. (3) Which in 30 seconds, Press Disarm and PIN code is PASS.
+####(1) In StayArm. (2) DWS_01 has LowBattery. (3) After 180 seconds, Press Stay Arm.
+####(1) In StayArm. (2) DWS_01 has LowBattery. (3) After 180 seconds, Press Disarm and PIN code is FAIL.
+####(1) In StayArm. (2) DWS_01 has LowBattery.
+####(1) In StayArm. (2) DWS_01 has LowBattery. (3) After 180 seconds, Press Away Arm.
+####(1) In StayArm. (2) DWS_01 has LowBattery. (3) After 180 seconds, Press Disarm.
+####(1) In StayArm. (2) DWS_01 has LowBattery. (3) After 180 seconds, Press Stay Arm button from Portal(App).
+####(1) In StayArm. (2) DWS_01 has LowBattery. (3) After 180 seconds, Press Away Arm button from Portal(App).
+####(1) In StayArm. (2) DWS_01 has LowBattery. (3) After 180 seconds, Press Disarm and PIN code is PASS.
+####============================================================================
+(1) In StayArm. (2) DWS_01 is opened and then closed. (3) After 310 seconds, Press Stay Arm.
+(1) In StayArm. (2) DWS_01 is opened and then closed. (3) After 310 seconds, Press Disarm and PIN code is FAIL.
+(1) In StayArm. (2) DWS_01 is opened and then closed.
+(1) In StayArm. (2) DWS_01 is opened and then closed. (3) After 310 seconds, Press Away Arm.
+(1) In StayArm. (2) DWS_01 is opened and then closed. (3) After 310 seconds, Press Disarm.
+####(1) In StayArm. (2) DWS_01 is opened and then closed. (3) After 310 seconds, Press Stay Arm button from Portal(App).
+####(1) In StayArm. (2) DWS_01 is opened and then closed. (3) After 310 seconds, Press Away Arm button from Portal(App).
+(1) In StayArm. (2) DWS_01 is opened and then closed. (3) After 310 seconds, Press Disarm and PIN code is PASS.
+(1) In StayArm. (2) DWS_01 is opened and then closed. (3) Which in 30 seconds, Press Stay Arm.
+(1) In StayArm. (2) DWS_01 is opened and then closed. (3) Which in 30 seconds, Press Disarm and PIN code is FAIL.
+(1) In StayArm. (2) DWS_01 is opened and then closed.
+(1) In StayArm. (2) DWS_01 is opened and then closed. (3) Which in 30 seconds, Press Away Arm.
+(1) In StayArm. (2) DWS_01 is opened and then closed. (3) Which in 30 seconds, Press Disarm.
+(1) In StayArm. (2) DWS_01 is opened and then closed. (3) Which in 30 seconds, Press Stay Arm button from Portal(App).
+(1) In StayArm. (2) DWS_01 is opened and then closed. (3) Which in 30 seconds, Press Away Arm button from Portal(App).
+(1) In StayArm. (2) DWS_01 is opened and then closed. (3) Which in 30 seconds, Press Disarm and PIN code is PASS.
+(1) In StayArm. (2) DWS_01 is opened and then closed. (3) After 180 seconds, Press Stay Arm.
+(1) In StayArm. (2) DWS_01 is opened and then closed. (3) After 180 seconds, Press Disarm and PIN code is FAIL.
+(1) In StayArm. (2) DWS_01 is opened and then closed.
+(1) In StayArm. (2) DWS_01 is opened and then closed. (3) After 180 seconds, Press Away Arm.
+(1) In StayArm. (2) DWS_01 is opened and then closed. (3) After 180 seconds, Press Disarm.
+(1) In StayArm. (2) DWS_01 is opened and then closed. (3) After 180 seconds, Press Stay Arm button from Portal(App).
+(1) In StayArm. (2) DWS_01 is opened and then closed. (3) After 180 seconds, Press Away Arm button from Portal(App).
+(1) In StayArm. (2) DWS_01 is opened and then closed. (3) After 180 seconds, Press Disarm and PIN code is PASS.
+####============================================================================
+(1) In StayArm. (2) DWS_01 is opened without closing. (3) After 310 seconds, Press Stay Arm.
+(1) In StayArm. (2) DWS_01 is opened without closing. (3) After 310 seconds, Press Disarm and PIN code is FAIL.
+(1) In StayArm. (2) DWS_01 is opened without closing.
+(1) In StayArm. (2) DWS_01 is opened without closing. (3) After 310 seconds, Press Away Arm.
+(1) In StayArm. (2) DWS_01 is opened without closing. (3) After 310 seconds, Press Disarm.
+(1) In StayArm. (2) DWS_01 is opened without closing. (3) After 310 seconds, Press Stay Arm button from Portal(App).
+(1) In StayArm. (2) DWS_01 is opened without closing. (3) After 310 seconds, Press Away Arm button from Portal(App).
+(1) In StayArm. (2) DWS_01 is opened without closing. (3) After 310 seconds, Press Disarm and PIN code is PASS.
+(1) In StayArm. (2) DWS_01 is opened without closing. (3) Which in 30 seconds, Press Stay Arm.
+(1) In StayArm. (2) DWS_01 is opened without closing. (3) Which in 30 seconds, Press Disarm and PIN code is FAIL.
+(1) In StayArm. (2) DWS_01 is opened without closing.
+(1) In StayArm. (2) DWS_01 is opened without closing. (3) Which in 30 seconds, Press Away Arm.
+(1) In StayArm. (2) DWS_01 is opened without closing. (3) Which in 30 seconds, Press Disarm.
+(1) In StayArm. (2) DWS_01 is opened without closing. (3) Which in 30 seconds, Press Stay Arm button from Portal(App).
+(1) In StayArm. (2) DWS_01 is opened without closing. (3) Which in 30 seconds, Press Away Arm button from Portal(App).
+(1) In StayArm. (2) DWS_01 is opened without closing. (3) Which in 30 seconds, Press Disarm and PIN code is PASS.
+(1) In StayArm. (2) DWS_01 is opened without closing. (3) After 180 seconds, Press Stay Arm.
+(1) In StayArm. (2) DWS_01 is opened without closing. (3) After 180 seconds, Press Disarm and PIN code is FAIL.
+(1) In StayArm. (2) DWS_01 is opened without closing.
+(1) In StayArm. (2) DWS_01 is opened without closing. (3) After 180 seconds, Press Away Arm.
+(1) In StayArm. (2) DWS_01 is opened without closing. (3) After 180 seconds, Press Disarm.
+(1) In StayArm. (2) DWS_01 is opened without closing. (3) After 180 seconds, Press Stay Arm button from Portal(App).
+(1) In StayArm. (2) DWS_01 is opened without closing. (3) After 180 seconds, Press Away Arm button from Portal(App).
+(1) In StayArm. (2) DWS_01 is opened without closing. (3) After 180 seconds, Press Disarm and PIN code is PASS.
