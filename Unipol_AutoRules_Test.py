@@ -251,24 +251,19 @@ def main():
                 time.sleep(sleep_time)
 
                 logger.debug("========== step 4 ==========")
-                getData = False
-                i = 0
-                while True:
+                for i in range(1, 10):
                     getData = check_status(gw_mac, row['R_GW_SIREN_1'], row['R_SYSTEM_STATE_1'])
 
-                    if getData or i <= 10:
+                    if getData:
+                        results_dist['R_GW_SIREN_1'] = True
+                        results_dist['R_SYSTEM_STATE_1'] = True
+                        logger.debug("Siren is " + row['R_GW_SIREN_1'] + " and Security state is " +
+                                     row['R_SYSTEM_STATE_1'] + ".: PASS")
                         break
+                    else:
+                        logger.debug("Siren is incorrect and Security state is incorrect.: FAIL")
 
-                    i += 1
                     time.sleep(0.5)
-
-                if getData:
-                    results_dist['R_GW_SIREN_1'] = True
-                    results_dist['R_SYSTEM_STATE_1'] = True
-                    logger.debug("Siren is " + row['R_GW_SIREN_1'] + " and Security state is " +
-                                 row['R_SYSTEM_STATE_1'] + ".: PASS")
-                else:
-                    logger.debug("Siren is incorrect and Security state is incorrect.: FAIL")
 
                 # getData = check_event(kitcode, row['R_EVENT'])
                 # if getData == "PASS":
@@ -321,24 +316,20 @@ def main():
                     row['R_GW_SIREN_2']).strip().upper() + ", expected R_SYSTEM_STATE_2=" + str(
                     row['R_SYSTEM_STATE_2']).strip().upper())
 
-                i = 0
-                while True:
+                for i in range(1, 20):
                     getData = check_status(gw_mac, str(row['R_GW_SIREN_2']).strip().upper(),
                                            str(row['R_SYSTEM_STATE_2']).strip().upper())
 
-                    if getData or i <= 20:
+                    if getData or D_STATE == "ENTER_DELAY":
+                        results_dist['R_GW_SIREN_2'] = True
+                        results_dist['R_SYSTEM_STATE_2'] = True
+                        logger.debug("Siren is " + row['R_GW_SIREN_2'] + " and Security state is " +
+                                     row['R_SYSTEM_STATE_2'] + ".: PASS")
                         break
+                    else:
+                        logger.debug("Siren state incorrect and Security state is incorrect.: FAIL")
 
-                    i += 1
                     time.sleep(0.5)
-
-                if getData or D_STATE == "ENTER_DELAY":
-                    results_dist['R_GW_SIREN_2'] = True
-                    results_dist['R_SYSTEM_STATE_2'] = True
-                    logger.debug("Siren is " + row['R_GW_SIREN_2'] + " and Security state is " +
-                                 row['R_SYSTEM_STATE_2'] + ".: PASS")
-                else:
-                    logger.debug("Siren state incorrect and Security state is incorrect.: FAIL")
 
                 # getData = check_event(kitcode, row['R_EVENT_2'])
                 # if getData == "PASS":
