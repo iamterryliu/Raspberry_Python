@@ -110,6 +110,18 @@ def init_db_is_check(kitcode):
     logger.debug("reset database.")
 
 
+def createResultFile():
+    global result_csv_file_name
+    # write header to csv file(Result file)
+    STR_DATETIME = str(datetime.datetime.now().strftime("%Y%m%d%H%M%S"))
+    result_csv_file_name = 'UnipolAutoTestResult_' + STR_DATETIME + '.csv'
+    CSV_file = open('result/' + result_csv_file_name, 'w')
+    csvCursor = csv.writer(CSV_file)
+    csvHeader = ['id', 'result', 'clip_file']
+    csvCursor.writerow(csvHeader)
+    CSV_file.close()
+
+
 def writeCSVResult(t_id, result, clip_file):
     fields = [t_id, result, clip_file]
     with open('result/' + result_csv_file_name, 'a') as csv_file:
@@ -135,16 +147,7 @@ def banner_print():
 
 def main():
     try:
-        global result_csv_file_name
-
-        # write header to csv file(Result file)
-        STR_DATETIME = str(datetime.datetime.now().strftime("%Y%m%d%H%M%S"))
-        result_csv_file_name = 'UnipolAutoTestResult_' + STR_DATETIME + '.csv'
-        CSV_file = open('result/' + result_csv_file_name, 'w')
-        csvCursor = csv.writer(CSV_file)
-        csvHeader = ['id', 'result', 'clip_file']
-        csvCursor.writerow(csvHeader)
-        CSV_file.close()
+        createResultFile()
 
         # Enter a csv file.
         test_case_csv = sys.argv[1]
