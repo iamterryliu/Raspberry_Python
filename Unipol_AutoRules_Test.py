@@ -118,6 +118,15 @@ def writeCSVResult(t_id, result, clip_file):
         csv_file.close()
 
 
+def readConfigFile():
+    global gw_mac, kitcode
+    config = ConfigParser.ConfigParser()
+    config.read('Unipol_AutoRules_Test.ini')
+    gw_mac = config.get('Test1', 'gw_mac')
+    kitcode = config.get('Test1', 'kitcode')
+    logger.debug("readConfigFile::: gw_mac=" + gw_mac + ", kitcode=" + kitcode)
+
+
 def banner_print():
     logger.debug("########## Start Testing ##########")
     logger.debug("#" + result_csv_file_name)
@@ -125,11 +134,6 @@ def banner_print():
 
 
 def main():
-    config = ConfigParser.ConfigParser()
-    config.read('Unipol_AutoRules_Test.ini')
-    gw_mac = config.get('Test1', 'gw_mac')
-    kitcode = config.get('Test1', 'kitcode')
-
     try:
         global result_csv_file_name
 
@@ -385,4 +389,5 @@ def main():
 
 if __name__ == '__main__':
     genLogger()
+    readConfigFile()
     main()
