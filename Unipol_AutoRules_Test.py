@@ -1,5 +1,6 @@
 __author__ = 'Terry Liu # 2518'
 
+import ConfigParser
 import csv
 import datetime
 import logging
@@ -124,8 +125,10 @@ def banner_print():
 
 
 def main():
-    gw_mac = '7894B4FAC089'
-    kitcode = 'imfac089'
+    config = ConfigParser.ConfigParser()
+    config.read('Unipol_AutoRules_Test.ini')
+    gw_mac = config.get('Test1', 'gw_mac')
+    kitcode = config.get('Test1', 'kitcode')
 
     try:
         global result_csv_file_name
