@@ -251,7 +251,7 @@ def main():
                 time.sleep(sleep_time)
 
                 logger.debug("========== step 4 ==========")
-                for i in range(1, 10):
+                for i in range(1, 20):
                     getData = check_status(gw_mac, row['R_GW_SIREN_1'], row['R_SYSTEM_STATE_1'])
 
                     if getData:
