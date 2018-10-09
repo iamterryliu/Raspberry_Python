@@ -13,7 +13,7 @@ import xmltodict
 from common.MariaDBDAO import MariaDBDAO
 
 mac = '7894B4FAC089'
-get_security_url = '''http://192.168.8.221:8080/cgi/get_security.cgi?mac='''
+get_security_url = '''http://172.31.7.89:8080/cgi/get_security.cgi?mac='''
 
 
 def genLogger():

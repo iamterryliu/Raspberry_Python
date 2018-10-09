@@ -11,8 +11,8 @@ import xmltodict
 class Security_State_dl():
     def __init__(self, mac):
         self.__mac = mac
-        self.__cmsi_set_security = 'http://192.168.8.221:8080/cgi/set_security.cgi?'
-        self.__cmsi_get_security = 'http://192.168.8.221:8080/cgi/get_security.cgi?'
+        self.__cmsi_set_security = 'http://172.31.7.89:8080/cgi/set_security.cgi?'
+        self.__cmsi_get_security = 'http://172.31.7.89:8080/cgi/get_security.cgi?'
         self.__logger = self.genLogger()
 
     def setDisarm(self):
