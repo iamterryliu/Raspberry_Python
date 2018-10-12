@@ -46,6 +46,19 @@ class Trigger_Sensor():
         response = requests.get(run_cmd)
         self.__logger.debug(" Press keyfob's awayArm key. :" + response.text)
 
+    # Add BTN4
+    def btn4_on_10s(self):
+        run_cmd = self.__btn4_url + "/on_10s"
+        self.__logger.debug("Trigger :" + run_cmd)
+        response = requests.get(run_cmd)
+        self.__logger.debug("Trigger sensor to do On 10 secs.:" + response.text)
+
+    def btn4_on_over_30s(self):
+        run_cmd = self.__btn4_url + "/on_over_30s"
+        self.__logger.debug("Trigger :" + run_cmd)
+        response = requests.get(run_cmd)
+        self.__logger.debug("Trigger sensor to do On over 30 secs.:" + response.text)
+
     def genLogger(self):
         logger = logging.getLogger(__name__)
         logging.config.dictConfig({

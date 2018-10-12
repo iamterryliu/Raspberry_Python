@@ -243,8 +243,20 @@ def main():
                         trigger_sensor.turntable_open_close()
                     elif D_TRIGGER == "OPEN":
                         trigger_sensor.turntable_open()
+
                 elif SENSOR_TYPE == "PIR":
-                    trigger_sensor.turntable_open_close()
+                    if D_TRIGGER == "ON_OFF":
+                        trigger_sensor.turntable_open_close()
+
+                elif SENSOR_TYPE == "WTD":
+                    if D_TRIGGER == "WATER_ON_10S":
+                        trigger_sensor.btn4_on_10s()
+                    elif D_TRIGGER == "WATER_ON_OVER_30S":
+                        trigger_sensor.btn4_on_over_30s()
+
+                elif SENSOR_TYPE == "SMK":
+                    if D_TRIGGER == "SMOKER_ON_10S":
+                        trigger_sensor.btn4_on_10s()
 
                 logger.debug("========== step 3 ==========")
                 sleep_time = int(str(row['D_SLEEP_TIME_1']).strip().upper())

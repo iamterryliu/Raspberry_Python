@@ -69,6 +69,23 @@ def press_disArm():
     return 'pass_disArm'
 
 
+# Add BTN4
+@app.route('/btn4/on_10s')
+def do_btn4_on_10s():
+    os.system('.\\scduinoM.exe ' + controller_COM + ' no btn4')
+    time.sleep(10)
+    os.system('.\\scduinoM.exe ' + controller_COM + ' nc btn4')
+    return 'do_btn4_on_10s'
+
+
+@app.route('/btn4/on_over_30s')
+def do_btn4_on_over_30s():
+    os.system('.\\scduinoM.exe ' + controller_COM + ' no btn4')
+    time.sleep(35)
+    os.system('.\\scduinoM.exe ' + controller_COM + ' nc btn4')
+    return 'do_btn4_on_over_30s'
+
+
 if __name__ == '__main__':
     do_turntable_init()
     app.run(host="0.0.0.0", debug=True)
