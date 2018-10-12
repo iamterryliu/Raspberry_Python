@@ -15,6 +15,7 @@ from common.MariaDBDAO import MariaDBDAO
 
 def genLogger():
     global logger
+    STR_DATETIME = str(datetime.datetime.now().strftime("%Y%m%d%H%M%S"))
     logger = logging.getLogger(__name__)
     logging.config.dictConfig({
         "version": 1,
@@ -37,7 +38,7 @@ def genLogger():
                 "class": "logging.handlers.RotatingFileHandler",
                 "level": "DEBUG",
                 "formatter": "simple",
-                "filename": "./log/Unipol_AutoRules_Test.log",
+                "filename": "./log/Unipol_AutoRules_Test_" + STR_DATETIME + ".log",
                 "maxBytes": 3145728,
                 "backupCount": 10,
                 "encoding": "utf8"
