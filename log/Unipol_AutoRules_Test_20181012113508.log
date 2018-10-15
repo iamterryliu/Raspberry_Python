@@ -1,0 +1,7 @@
+2018-10-12 11:35:08,045 - DEBUG - readConfigFile::: gw_mac=7894B4FAC089, kitcode=testc089
+2018-10-12 11:35:08,045 - DEBUG - test_case_csv: ./csv/unipol_dws_auto_rules.20180712.csv
+2018-10-12 11:35:08,045 - DEBUG - ########## Start Testing ##########
+2018-10-12 11:35:08,046 - DEBUG - #UnipolAutoTestResult_20181012113508.csv
+2018-10-12 11:35:08,046 - DEBUG - ###################################
+2018-10-12 11:35:08,046 - DEBUG - ========== step 0 ==========
+2018-10-12 11:35:08,046 - ERROR - Unexpected error:<type 'exceptions.KeyError'>
